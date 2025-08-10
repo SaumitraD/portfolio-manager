@@ -9,6 +9,7 @@ import { BuySellPopupComponent } from './views/buy-sell-popup/buy-sell-popup.com
 import { OrderSummaryComponent } from './views/order-summary/order-summary.component';
 import { OrderHistoryComponent } from './views/order-history/order-history.component';
 import { AllocateFundsComponent } from './views/allocate-funds/allocate-funds.component';
+import { NavBarComponent } from './views/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AllocateFundsComponent } from './views/allocate-funds/allocate-funds.co
     BuySellPopupComponent,
     OrderSummaryComponent,
     OrderHistoryComponent,
-    AllocateFundsComponent
+    AllocateFundsComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
